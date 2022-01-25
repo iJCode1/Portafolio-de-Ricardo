@@ -1,0 +1,10 @@
+.logo{
+  text-decoration: none;
+  color: var(--white);
+  font: var(--logo);
+  text-transform: uppercase;
+  transition: .2s transform;
+}
+.logo:active{
+  transform: scale(.9);
+}

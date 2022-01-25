@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700;800;900&display=swap');
+@import './container.css';
+@import './logo.css';
+@import './nav.css';
 :root { 
   --text_dark: #391400; 
   --text_dark_gray: #391400; 
@@ -20,10 +23,12 @@
   --text_big: 400 1.25rem/2rem Epilogue; 
   --text: 400 1rem/2rem Epilogue; 
   --text_small: 400 0.875rem/1.5rem Epilogue; 
-  --button: 900 0.875rem/normal Epilogue;    
+  --button: 900 0.875rem/normal Epilogue;  
+  --logo: 400 1.5rem/1.5rem Impact;
 }
 body {
-  font: var(--h1);
+  /* font: var(--h1); */
   color: var(--white);
   background-color: var(--orange-ligth);
+  margin: 0;
 }
