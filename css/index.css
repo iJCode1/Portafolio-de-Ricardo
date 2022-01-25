@@ -2,12 +2,13 @@
 @import './container.css';
 @import './logo.css';
 @import './nav.css';
+@import './footer.css';
 :root { 
   --text_dark: #391400; 
   --text_dark_gray: #391400; 
   --white: #ffffff; 
   --orange: #ef6d58; 
-  --text_light_gray: #ffffff; 
+  --text_light_gray: rgba(255,255,255,.64); 
   --bg: #16161a; 
   --primary: #7f5af0; 
   --bg-2: #242629; 
