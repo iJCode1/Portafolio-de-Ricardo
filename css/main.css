@@ -1,0 +1,39 @@
+.main{
+  padding: 4rem 1rem;
+}
+.main-details{
+  font: var(--h5);
+  margin: 0;
+  color: var(--orange);
+  margin-block-end: 1.5rem;
+}
+.main-title{
+  font: var(--h3);
+  margin: 0;
+  color: var(--text_dark);
+  margin-block-end: 2.5rem;
+}
+.main-projects{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px ,1fr));
+  column-gap: 1.5rem;
+  row-gap: 2rem;
+  max-inline-size: 90rem;
+  margin: 0 auto;
+}
+@media screen and (min-width: 768px){
+  .main{
+    padding: 6.25rem 1.5rem;
+  }
+  .main-title{
+    font: var(--h2);
+  }
+  .main-details{
+    font: var(--h4);
+  }
+}
+@media screen and (min-width: 1024px){
+  .main{
+    padding: 8.4375rem 1.5rem;
+  }
+}

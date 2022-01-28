@@ -1,0 +1,33 @@
+.project{
+  block-size: 35rem;
+  position: relative;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+.project-img{
+  position: absolute;
+  inset-block-start: 0;
+  inset-block-end: 0;
+  inset-inline-end: 0;
+  inset-inline-start: 0;
+  transition: transform .6s;
+}
+.project-img:hover{
+  transform: scale(1.4);  
+}
+.project-title{
+  font: var(--h3);
+  margin: 0;
+  position: absolute;
+  inset-block-end: 1rem;
+  inset-inline-start: 1rem;
+}
+.project.niko .project-img{
+  background-image: var(--niko);
+}
+.project.amazonas .project-img{
+  background-image: var(--amazonas);
+}
+.project.principe .project-img{
+  background-image: var(--principe);
+}

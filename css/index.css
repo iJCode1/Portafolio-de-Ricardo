@@ -2,8 +2,10 @@
 @import './container.css';
 @import './logo.css';
 @import './button.css';
+@import './project.css';
 @import './nav.css';
 @import './header.css';
+@import './main.css';
 @import './footer.css';
 :root { 
   --text_dark: #391400; 
@@ -28,10 +30,16 @@
   --text_small: 400 0.875rem/1.5rem Epilogue; 
   --button: 900 0.875rem/normal Epilogue;  
   --logo: 400 1.5rem/1.5rem Impact;
+  --niko: url('../assets/images/niko_bg.webp');
+  --amazonas: url('../assets/images/amazonas_bg.webp');
+  --principe: url('../assets/images/principe_bg.webp');
 }
 body {
   /* font: var(--h1); */
   color: var(--white);
   background-color: var(--orange-ligth);
   margin: 0;
+}
+html{
+  scroll-behavior: smooth;
 }
