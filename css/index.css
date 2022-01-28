@@ -6,10 +6,11 @@
 @import './nav.css';
 @import './header.css';
 @import './main.css';
+@import './profile.css';
 @import './footer.css';
 :root { 
   --text_dark: #391400; 
-  --text_dark_gray: #391400; 
+  --text_dark_gray: rgba(57, 20, 0, .64); 
   --white: #ffffff; 
   --orange: #ef6d58; 
   --text_light_gray: rgba(255,255,255,.64); 
