@@ -16,10 +16,11 @@
   --text_dark: #391400; 
   --text_dark_gray: rgba(57, 20, 0, .64); 
   --white: #ffffff; 
-  --orange: #ef6d58; 
+  /* --orange: #ef6d58;  */
+  --orange: #c12508; 
   --text_light_gray: rgba(255,255,255,.64); 
   --bg: #16161a; 
-  --primary: #7f5af0; 
+  --primary: #4d3690; 
   --bg-2: #242629; 
   --grey-1: #94a1b2; 
   --grey-2: #4d4d4d; 

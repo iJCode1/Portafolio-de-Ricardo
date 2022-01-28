@@ -12,6 +12,12 @@
   margin: 0;
   margin-block-end: 1.5rem;
 }
+.footer-logo{
+  transition: transform .2s;
+}
+.footer-logo:active{
+  transform: scale(.9);
+}
 .footer-line{
   display: block;
   inline-size: 100%;
@@ -22,6 +28,8 @@
 .footer-icons{
   display: flex;
   gap: .5rem;
+  list-style: none;
+  padding: 0;
 }
 .footer-social{
   inline-size: 3rem;

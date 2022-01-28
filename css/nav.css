@@ -16,6 +16,8 @@
 }
 .nav-items{
   display: none;
+  list-style: none;
+  padding: 0;
 }
 .nav-link{
   text-decoration: none;
@@ -31,6 +33,7 @@
   transform: scale(.9);
 }
 .nav-hamburger{
+  display: inline-block;
   background-image: url('../assets/icons/menu.svg');
   inline-size: 3rem;
   block-size: 3rem;

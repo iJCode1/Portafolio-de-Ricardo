@@ -18,8 +18,10 @@
   <nav class="nav">
     <div class="container">
       <ul class="nav-list">
-        <a href="./index.html" class="logo">logo</a>
-        <div class="nav-items">
+        <li class="nav-item">
+          <a href="#" class="logo" aria-label="Logo del portafolio">logo</a>
+        </li>
+        <ol class="nav-items" aria-label="Opciones">
           <li class="nav-item">
             <a href="#projects" class="nav-link">proyectos</a>
           </li>
@@ -29,8 +31,10 @@
           <li class="nav-item">
             <a href="#contact" class="nav-link">contacto</a>
           </li>
-        </div>
-        <a href="#" class="nav-hamburger"></a>
+        </ol>
+        <li class="nav-item">
+          <a href="#" class="nav-hamburger" aria-hidden="true"></a>
+        </li>
       </ul>
     </div>
   </nav>
@@ -158,16 +162,18 @@
   <footer class="footer">
     <div class="container">
       <ul class="footer-list">
-        <a href="./index.html" class="footer-logo logo">logo</a>
-        <div class="footer-icons">
+        <li class="footer-item footer-logo">
+          <a href="#" class="footer-logo logo">logo</a>
+        </li>
+        <div class="footer-icons" aria-hidden="true">
           <li class="footer-item">
-            <a href="#" class="footer-social social-facebook"></a>
+            <span class="footer-social social-facebook" aria-hidden="true"></span>
           </li>
           <li class="footer-item">
-            <a href="#" class="footer-social social-twitter"></a>
+            <span class="footer-social social-twitter" aria-hidden="true"></span>
           </li>
           <li class="footer-item">
-            <a href="#" class="footer-social social-instagram"></a>
+            <span class="footer-social social-instagram" aria-hidden="true"></i#>
           </li>
         </div>
       </ul>
