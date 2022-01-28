@@ -1,0 +1,12 @@
+.stars{
+  display: flex;
+  gap: .5rem;
+}
+.star{
+  display: inline-block;
+  background-image: url('../assets/icons/Star.svg');
+  inline-size: 1.5rem;
+  block-size: 1.5rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

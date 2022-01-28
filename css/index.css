@@ -3,10 +3,13 @@
 @import './logo.css';
 @import './button.css';
 @import './project.css';
+@import './stars.css';
+@import './card.css';
 @import './nav.css';
 @import './header.css';
 @import './main.css';
 @import './profile.css';
+@import './testimonials.css';
 @import './footer.css';
 :root { 
   --text_dark: #391400; 
