@@ -29,6 +29,22 @@
   color: var(--text_light_gray);
   margin: 0;
 }
+.header-img{
+  transform: translateY(-10%);
+  transition: transform 6s ease-in-out;
+  animation: movimiento 6s infinite;
+}
+@keyframes movimiento{
+  0%{
+    transform: translateY(-10%);
+  }
+  50%{
+    transform: translateY(5%);
+  }
+  100%{
+    transform: translateY(-10%);
+  }
+}
 @media screen and (min-width: 768px){
   .header{
     padding-block-end: 4.25rem;
